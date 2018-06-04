@@ -19,7 +19,6 @@ import org.apache.spark.sql.{SaveMode, SparkSession}
 
 object MaetTagOneUsertTask {
 
-
   def validateArgs(args: Array[String]) = {
     if (args.length < 1 && !Utils.validateDate(args(0))) {
       println(s"${this.getClass.getName}需要一个 :yyyy-MM-dd 格式的日期参数")
