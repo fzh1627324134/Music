@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <!--TODO hdfs-->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://hadoop1:9000</value>
+    </property>
+
+    <!--TODO hbase-->
+    <property>
+        <name>hbase.zookeeper.quorum</name>
+        <value>hadoop1,hadoop2,hadoop3</value>
+    </property>
+</configuration>

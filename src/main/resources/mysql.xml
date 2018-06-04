@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <property>
+        <name>jdbc.driver</name>
+        <value>com.mysql.jdbc.Driver</value>
+    </property>
+    <property>
+        <name>jdbc.datasource.size</name>
+        <value>5</value>
+    </property>
+    <property>
+        <name>jdbc.url</name>
+        <value>jdbc:mysql://192.168.80.8:3306/kting?characterEncoding=utf-8</value>
+    </property>
+    <property>
+        <name>jdbc.user</name>
+        <value>root</value>
+    </property>
+    <property>
+        <name>jdbc.password</name>
+        <value>root</value>
+    </property>
+</configuration>

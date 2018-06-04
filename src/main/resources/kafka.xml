@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
+    <!--TODO Kafka配置-->
+    <property>
+        <name>metadata.broker.list</name>
+        <value>kfk1.kting.local:9301,kfk2.kting.local:9301,kfk3.kting.local:9301,kfk4.kting.local:9301,kfk5.kting.local:9301</value>
+    </property>
+</configuration>

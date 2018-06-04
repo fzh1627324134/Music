@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
+    <!--TODO mysql  spark-streaming-->
+    <property>
+        <name>kafka.topic</name>
+        <value>hwfm</value>
+    </property>
+    <property>
+        <name>auto.offset.reset</name>
+        <value>largest</value>
+    </property>
+    <property>
+        <name>group.id</name>
+        <value>znx4</value>
+    </property>
+
+
+    <property>
+        <name>streaming.interval</name>
+        <value>3</value>
+    </property>
+
+    <property>
+        <name>streaming.checkpoint.path</name>
+        <value>/checkpoint39/huawei_music</value>
+    </property>
+
+</configuration>

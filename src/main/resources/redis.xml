@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+    <!--TODO redis  -->
+    <property>
+        <name>redis.host.port</name>
+        <value>10.28.92.136:9701,10.28.92.148:9701,10.28.92.128:9701,10.28.92.97:9701</value>
+    </property>
+
+    <property>
+        <name>redis.max.total</name>
+        <value>20</value>
+    </property>
+
+    <property>
+        <name>redis.max.idle</name>
+        <value>10</value>
+    </property>
+
+    <property>
+        <name>redis.on.borrow</name>
+        <value>true</value>
+    </property>
+
+</configuration>
